@@ -21,6 +21,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		C926CEC91DEC008F00F95D83 /* com.同牛网络科技有限公司_ID..MasnoryTest.docset in Resources */ = {isa = PBXBuildFile; fileRef = C926CEC81DEC008F00F95D83 /* com.同牛网络科技有限公司_ID..MasnoryTest.docset */; };
 		C9517D8F1C1671A20086B787 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9517D8E1C1671A20086B787 /* main.m */; };
 		C9517D921C1671A20086B787 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9517D911C1671A20086B787 /* AppDelegate.m */; };
 		C9517D951C1671A20086B787 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9517D941C1671A20086B787 /* ViewController.m */; };
@@ -55,6 +56,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C926CEC81DEC008F00F95D83 /* com.同牛网络科技有限公司_ID..MasnoryTest.docset */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = "com.同牛网络科技有限公司_ID..MasnoryTest.docset"; sourceTree = "<group>"; };
 		C9517D891C1671A20086B787 /* MasnoryTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasnoryTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9517D8D1C1671A20086B787 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9517D8E1C1671A20086B787 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -119,12 +121,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C9517D801C1671A20086B787 = {
+		C926CECA1DEC009400F95D83 /* NBBView */ = {
 			isa = PBXGroup;
 			children = (
 				C9517DDB1C169F060086B787 /* Cell.h */,
 				C9517DDC1C169F060086B787 /* Cell.m */,
 				C9517DDD1C169F060086B787 /* Cell.xib */,
+			);
+			name = NBBView;
+			sourceTree = "<group>";
+		};
+		C926CECB1DEC00A400F95D83 /* NBBAPI */ = {
+			isa = PBXGroup;
+			children = (
+				C926CEC81DEC008F00F95D83 /* com.同牛网络科技有限公司_ID..MasnoryTest.docset */,
+			);
+			name = NBBAPI;
+			sourceTree = "<group>";
+		};
+		C926CECC1DEC00B200F95D83 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				C9517D961C1671A20086B787 /* Main.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		C926CECD1DEC00CF00F95D83 /* NBBXIB */ = {
+			isa = PBXGroup;
+			children = (
+				C9517D9B1C1671A20086B787 /* LaunchScreen.xib */,
+			);
+			name = NBBXIB;
+			sourceTree = "<group>";
+		};
+		C926CECE1DEC012100F95D83 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C9517DB21C16726E0086B787 /* UIView+HKSetConstraints.h */,
+				C9517DB31C16726E0086B787 /* UIView+HKSetConstraints.m */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		C9517D801C1671A20086B787 = {
+			isa = PBXGroup;
+			children = (
+				C926CECD1DEC00CF00F95D83 /* NBBXIB */,
+				C926CECC1DEC00B200F95D83 /* Storyboard */,
+				C926CECB1DEC00A400F95D83 /* NBBAPI */,
+				C926CECA1DEC009400F95D83 /* NBBView */,
 				C9517DB51C167F110086B787 /* Masonry */,
 				C9517D8B1C1671A20086B787 /* MasnoryTest */,
 				C9517DA51C1671A20086B787 /* MasnoryTestTests */,
@@ -144,15 +190,11 @@
 		C9517D8B1C1671A20086B787 /* MasnoryTest */ = {
 			isa = PBXGroup;
 			children = (
-				C9517DB21C16726E0086B787 /* UIView+HKSetConstraints.h */,
-				C9517DB31C16726E0086B787 /* UIView+HKSetConstraints.m */,
+				C926CECE1DEC012100F95D83 /* App */,
 				C9517D901C1671A20086B787 /* AppDelegate.h */,
 				C9517D911C1671A20086B787 /* AppDelegate.m */,
 				C9517D931C1671A20086B787 /* ViewController.h */,
 				C9517D941C1671A20086B787 /* ViewController.m */,
-				C9517D961C1671A20086B787 /* Main.storyboard */,
-				C9517D991C1671A20086B787 /* Images.xcassets */,
-				C9517D9B1C1671A20086B787 /* LaunchScreen.xib */,
 				C9517D8C1C1671A20086B787 /* Supporting Files */,
 			);
 			path = MasnoryTest;
@@ -161,6 +203,7 @@
 		C9517D8C1C1671A20086B787 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C9517D991C1671A20086B787 /* Images.xcassets */,
 				C9517D8D1C1671A20086B787 /* Info.plist */,
 				C9517D8E1C1671A20086B787 /* main.m */,
 			);
@@ -302,6 +345,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9517DD01C167F110086B787 /* Info.plist in Resources */,
+				C926CEC91DEC008F00F95D83 /* com.同牛网络科技有限公司_ID..MasnoryTest.docset in Resources */,
 				C9517DDF1C169F060086B787 /* Cell.xib in Resources */,
 				C9517D981C1671A20086B787 /* Main.storyboard in Resources */,
 				C9517D9D1C1671A20086B787 /* LaunchScreen.xib in Resources */,
@@ -330,7 +374,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "#appledoc Xcode script\n# Start constants\ncompany=\"ACME\";\ncompanyID=\"com.ACME\";\ncompanyURL=\"http://ACME.com\";\ntarget=\"iphoneos\";\n#target=\"macosx\";\noutputPath=\"~/help\";\n# End constants\n/usr/local/bin/appledoc \\\n--project-name \"${PROJECT_NAME}\" \\\n--project-company \"${company}\" \\\n--company-id \"${companyID}\" \\\n--docset-atom-filename \"${company}.atom\" \\\n--docset-feed-url \"${companyURL}/${company}/%DOCSETATOMFILENAME\" \\\n--docset-package-url \"${companyURL}/${company}/%DOCSETPACKAGEFILENAME\" \\\n--docset-fallback-url \"${companyURL}/${company}\" \\\n--output \"${outputPath}\" \\\n--publish-docset \\\n--docset-platform-family \"${target}\" \\\n--logformat xcode \\\n--keep-intermediate-files \\\n--no-repeat-first-par \\\n--no-warn-invalid-crossref \\\n--exit-threshold 2 \\\n\"${PROJECT_DIR}\"";
+			shellScript = "#appledoc Xcode script\n# Start constants\ncompany=\"www.newbenben.com\";\ncompanyID=\"com.同牛网络科技有限公司_ID.\";\ncompanyURL=\"http://www.newbenben.com\";\ntarget=\"iphoneos\";\n#target=\"macosx\";\noutputPath=\"~/help\";\n# End constants\n/usr/local/bin/appledoc \\\n--project-name \"${PROJECT_NAME}\" \\\n--project-company \"${company}\" \\\n--company-id \"${companyID}\" \\\n--docset-atom-filename \"${company}.atom\" \\\n--docset-feed-url \"${companyURL}/${company}/%DOCSETATOMFILENAME\" \\\n--docset-package-url \"${companyURL}/${company}/%DOCSETPACKAGEFILENAME\" \\\n--docset-fallback-url \"${companyURL}/${company}\" \\\n--output \"${outputPath}\" \\\n--publish-docset \\\n--docset-platform-family \"${target}\" \\\n--logformat xcode \\\n--keep-intermediate-files \\\n--no-repeat-first-par \\\n--no-warn-invalid-crossref \\\n--exit-threshold 2 \\\n\"${PROJECT_DIR}\"";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -382,6 +426,7 @@
 				C9517D971C1671A20086B787 /* Base */,
 			);
 			name = Main.storyboard;
+			path = MasnoryTest;
 			sourceTree = "<group>";
 		};
 		C9517D9B1C1671A20086B787 /* LaunchScreen.xib */ = {
@@ -390,6 +435,7 @@
 				C9517D9C1C1671A20086B787 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			path = MasnoryTest;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -580,6 +626,7 @@
 				C9B430BD1DEBE30E006B510A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
