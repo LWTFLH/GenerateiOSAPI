@@ -21,6 +21,16 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		C90295B71E4C033200EDA3E9 /* TestAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = C90295B61E4C033200EDA3E9 /* TestAttribute.m */; };
+		C90295BA1E4C07A400EDA3E9 /* GetPhoneInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C90295B91E4C07A400EDA3E9 /* GetPhoneInfo.m */; };
+		C90295CB1E4C20AB00EDA3E9 /* TNPickView.m in Sources */ = {isa = PBXBuildFile; fileRef = C90295CA1E4C20AB00EDA3E9 /* TNPickView.m */; };
+		C90295CF1E4C3AF100EDA3E9 /* kapian_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = C90295CC1E4C3AF100EDA3E9 /* kapian_bg.png */; };
+		C90295D01E4C3AF100EDA3E9 /* kapian_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90295CD1E4C3AF100EDA3E9 /* kapian_bg@2x.png */; };
+		C90295D11E4C3AF100EDA3E9 /* kapian_bg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90295CE1E4C3AF100EDA3E9 /* kapian_bg@3x.png */; };
+		C90295D51E4C402E00EDA3E9 /* TNCustomerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C90295D41E4C402E00EDA3E9 /* TNCustomerView.m */; };
+		C90295D91E4C4C5800EDA3E9 /* sy_xuanzekuang.png in Resources */ = {isa = PBXBuildFile; fileRef = C90295D61E4C4C5800EDA3E9 /* sy_xuanzekuang.png */; };
+		C90295DA1E4C4C5800EDA3E9 /* sy_xuanzekuang@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90295D71E4C4C5800EDA3E9 /* sy_xuanzekuang@2x.png */; };
+		C90295DB1E4C4C5800EDA3E9 /* sy_xuanzekuang@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90295D81E4C4C5800EDA3E9 /* sy_xuanzekuang@3x.png */; };
 		C926CEC91DEC008F00F95D83 /* com.同牛网络科技有限公司_ID..MasnoryTest.docset in Resources */ = {isa = PBXBuildFile; fileRef = C926CEC81DEC008F00F95D83 /* com.同牛网络科技有限公司_ID..MasnoryTest.docset */; };
 		C9517D8F1C1671A20086B787 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9517D8E1C1671A20086B787 /* main.m */; };
 		C9517D921C1671A20086B787 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9517D911C1671A20086B787 /* AppDelegate.m */; };
@@ -43,6 +53,8 @@
 		C9517DDA1C167F110086B787 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C9517DCF1C167F110086B787 /* ViewController+MASAdditions.m */; };
 		C9517DDE1C169F060086B787 /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = C9517DDC1C169F060086B787 /* Cell.m */; };
 		C9517DDF1C169F060086B787 /* Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9517DDD1C169F060086B787 /* Cell.xib */; };
+		C99FC64F1E4838E700D0A213 /* TNCityView.m in Sources */ = {isa = PBXBuildFile; fileRef = C99FC64E1E4838E700D0A213 /* TNCityView.m */; };
+		C99FC6511E483D2B00D0A213 /* provinces_cities.plist in Resources */ = {isa = PBXBuildFile; fileRef = C99FC6501E483D2B00D0A213 /* provinces_cities.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +68,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C90295B51E4C033200EDA3E9 /* TestAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestAttribute.h; sourceTree = "<group>"; };
+		C90295B61E4C033200EDA3E9 /* TestAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestAttribute.m; sourceTree = "<group>"; };
+		C90295B81E4C07A400EDA3E9 /* GetPhoneInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetPhoneInfo.h; sourceTree = "<group>"; };
+		C90295B91E4C07A400EDA3E9 /* GetPhoneInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetPhoneInfo.m; sourceTree = "<group>"; };
+		C90295C91E4C20AB00EDA3E9 /* TNPickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNPickView.h; sourceTree = "<group>"; };
+		C90295CA1E4C20AB00EDA3E9 /* TNPickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNPickView.m; sourceTree = "<group>"; };
+		C90295CC1E4C3AF100EDA3E9 /* kapian_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kapian_bg.png; sourceTree = "<group>"; };
+		C90295CD1E4C3AF100EDA3E9 /* kapian_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kapian_bg@2x.png"; sourceTree = "<group>"; };
+		C90295CE1E4C3AF100EDA3E9 /* kapian_bg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kapian_bg@3x.png"; sourceTree = "<group>"; };
+		C90295D31E4C402E00EDA3E9 /* TNCustomerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNCustomerView.h; sourceTree = "<group>"; };
+		C90295D41E4C402E00EDA3E9 /* TNCustomerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNCustomerView.m; sourceTree = "<group>"; };
+		C90295D61E4C4C5800EDA3E9 /* sy_xuanzekuang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sy_xuanzekuang.png; sourceTree = "<group>"; };
+		C90295D71E4C4C5800EDA3E9 /* sy_xuanzekuang@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sy_xuanzekuang@2x.png"; sourceTree = "<group>"; };
+		C90295D81E4C4C5800EDA3E9 /* sy_xuanzekuang@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sy_xuanzekuang@3x.png"; sourceTree = "<group>"; };
 		C926CEC81DEC008F00F95D83 /* com.同牛网络科技有限公司_ID..MasnoryTest.docset */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = "com.同牛网络科技有限公司_ID..MasnoryTest.docset"; sourceTree = "<group>"; };
 		C9517D891C1671A20086B787 /* MasnoryTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasnoryTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9517D8D1C1671A20086B787 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -101,6 +127,9 @@
 		C9517DDB1C169F060086B787 /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
 		C9517DDC1C169F060086B787 /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell.m; sourceTree = "<group>"; };
 		C9517DDD1C169F060086B787 /* Cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Cell.xib; sourceTree = "<group>"; };
+		C99FC64D1E4838E700D0A213 /* TNCityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNCityView.h; sourceTree = "<group>"; };
+		C99FC64E1E4838E700D0A213 /* TNCityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNCityView.m; sourceTree = "<group>"; };
+		C99FC6501E483D2B00D0A213 /* provinces_cities.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = provinces_cities.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +150,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C90295C71E4C1EEF00EDA3E9 /* PhoneInfo */ = {
+			isa = PBXGroup;
+			children = (
+				C90295B81E4C07A400EDA3E9 /* GetPhoneInfo.h */,
+				C90295B91E4C07A400EDA3E9 /* GetPhoneInfo.m */,
+			);
+			name = PhoneInfo;
+			sourceTree = "<group>";
+		};
+		C90295C81E4C202400EDA3E9 /* CustomePick */ = {
+			isa = PBXGroup;
+			children = (
+				C90295C91E4C20AB00EDA3E9 /* TNPickView.h */,
+				C90295CA1E4C20AB00EDA3E9 /* TNPickView.m */,
+				C90295D31E4C402E00EDA3E9 /* TNCustomerView.h */,
+				C90295D41E4C402E00EDA3E9 /* TNCustomerView.m */,
+			);
+			name = CustomePick;
+			sourceTree = "<group>";
+		};
+		C90295D21E4C3AF700EDA3E9 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C90295D61E4C4C5800EDA3E9 /* sy_xuanzekuang.png */,
+				C90295D71E4C4C5800EDA3E9 /* sy_xuanzekuang@2x.png */,
+				C90295D81E4C4C5800EDA3E9 /* sy_xuanzekuang@3x.png */,
+				C90295CC1E4C3AF100EDA3E9 /* kapian_bg.png */,
+				C90295CD1E4C3AF100EDA3E9 /* kapian_bg@2x.png */,
+				C90295CE1E4C3AF100EDA3E9 /* kapian_bg@3x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		C926CECA1DEC009400F95D83 /* NBBView */ = {
 			isa = PBXGroup;
 			children = (
@@ -160,6 +222,8 @@
 			children = (
 				C9517DB21C16726E0086B787 /* UIView+HKSetConstraints.h */,
 				C9517DB31C16726E0086B787 /* UIView+HKSetConstraints.m */,
+				C90295B51E4C033200EDA3E9 /* TestAttribute.h */,
+				C90295B61E4C033200EDA3E9 /* TestAttribute.m */,
 			);
 			name = App;
 			sourceTree = "<group>";
@@ -167,6 +231,9 @@
 		C9517D801C1671A20086B787 = {
 			isa = PBXGroup;
 			children = (
+				C90295D21E4C3AF700EDA3E9 /* Images */,
+				C90295C81E4C202400EDA3E9 /* CustomePick */,
+				C90295C71E4C1EEF00EDA3E9 /* PhoneInfo */,
 				C926CECD1DEC00CF00F95D83 /* NBBXIB */,
 				C926CECC1DEC00B200F95D83 /* Storyboard */,
 				C926CECB1DEC00A400F95D83 /* NBBAPI */,
@@ -190,6 +257,9 @@
 		C9517D8B1C1671A20086B787 /* MasnoryTest */ = {
 			isa = PBXGroup;
 			children = (
+				C99FC6501E483D2B00D0A213 /* provinces_cities.plist */,
+				C99FC64D1E4838E700D0A213 /* TNCityView.h */,
+				C99FC64E1E4838E700D0A213 /* TNCityView.m */,
 				C926CECE1DEC012100F95D83 /* App */,
 				C9517D901C1671A20086B787 /* AppDelegate.h */,
 				C9517D911C1671A20086B787 /* AppDelegate.m */,
@@ -309,6 +379,7 @@
 				TargetAttributes = {
 					C9517D881C1671A20086B787 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = H9KF4VE576;
 					};
 					C9517DA11C1671A20086B787 = {
 						CreatedOnToolsVersion = 6.4;
@@ -344,11 +415,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C90295DB1E4C4C5800EDA3E9 /* sy_xuanzekuang@3x.png in Resources */,
 				C9517DD01C167F110086B787 /* Info.plist in Resources */,
 				C926CEC91DEC008F00F95D83 /* com.同牛网络科技有限公司_ID..MasnoryTest.docset in Resources */,
+				C90295DA1E4C4C5800EDA3E9 /* sy_xuanzekuang@2x.png in Resources */,
 				C9517DDF1C169F060086B787 /* Cell.xib in Resources */,
 				C9517D981C1671A20086B787 /* Main.storyboard in Resources */,
+				C90295CF1E4C3AF100EDA3E9 /* kapian_bg.png in Resources */,
 				C9517D9D1C1671A20086B787 /* LaunchScreen.xib in Resources */,
+				C90295D11E4C3AF100EDA3E9 /* kapian_bg@3x.png in Resources */,
+				C90295D91E4C4C5800EDA3E9 /* sy_xuanzekuang.png in Resources */,
+				C99FC6511E483D2B00D0A213 /* provinces_cities.plist in Resources */,
+				C90295D01E4C3AF100EDA3E9 /* kapian_bg@2x.png in Resources */,
 				C9517D9A1C1671A20086B787 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -383,9 +461,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C90295CB1E4C20AB00EDA3E9 /* TNPickView.m in Sources */,
 				C9517DD31C167F110086B787 /* MASConstraintMaker.m in Sources */,
+				C90295BA1E4C07A400EDA3E9 /* GetPhoneInfo.m in Sources */,
 				C9517D951C1671A20086B787 /* ViewController.m in Sources */,
+				C90295B71E4C033200EDA3E9 /* TestAttribute.m in Sources */,
 				C9517D921C1671A20086B787 /* AppDelegate.m in Sources */,
+				C90295D51E4C402E00EDA3E9 /* TNCustomerView.m in Sources */,
 				C9517DD21C167F110086B787 /* MASConstraint.m in Sources */,
 				C9517DDA1C167F110086B787 /* ViewController+MASAdditions.m in Sources */,
 				C9517DDE1C169F060086B787 /* Cell.m in Sources */,
@@ -396,6 +478,7 @@
 				C9517DD91C167F110086B787 /* View+MASAdditions.m in Sources */,
 				C9517D8F1C1671A20086B787 /* main.m in Sources */,
 				C9517DB41C16726E0086B787 /* UIView+HKSetConstraints.m in Sources */,
+				C99FC64F1E4838E700D0A213 /* TNCityView.m in Sources */,
 				C9517DD11C167F110086B787 /* MASCompositeConstraint.m in Sources */,
 				C9517DD81C167F110086B787 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 			);
@@ -525,6 +608,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H9KF4VE576;
 				INFOPLIST_FILE = MasnoryTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -535,6 +619,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H9KF4VE576;
 				INFOPLIST_FILE = MasnoryTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

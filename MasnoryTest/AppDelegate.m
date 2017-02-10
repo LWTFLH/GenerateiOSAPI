@@ -7,8 +7,10 @@
 //
 
 #import "AppDelegate.h"
-
+#import "TestAttribute.h"
 #import "ViewController.h"
+#import "GetPhoneInfo.h"
+#import "TNCustomerView.h"
 @interface AppDelegate ()
 
 @end
@@ -22,7 +24,7 @@
     
     _window.backgroundColor =  [UIColor whiteColor];
     
-    _window.rootViewController = [[ViewController alloc]init];
+    _window.rootViewController = [[GetPhoneInfo alloc]init];
     
     [_window makeKeyAndVisible];
     

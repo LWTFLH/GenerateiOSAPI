@@ -7,17 +7,18 @@
 //
 
 #import "ViewController.h"
-
+#import "TNCityView.h"
 #import "UIView+HKSetConstraints.h"
 
 #import "Cell.h"
 
 
-@interface ViewController ()<UITableViewDataSource,UITableViewDelegate>
+@interface ViewController ()<UITableViewDataSource,UITableViewDelegate,TNCityViewDelegate>
 /**
  *  表格视图
  */
 @property(nonatomic,strong)UITableView *tableView;
+@property(nonatomic,strong)TNCityView *cityView;
 @end
 
 @implementation ViewController
@@ -31,12 +32,18 @@
     _tableView.separatorColor = [UIColor yellowColor];
     
     [_tableView registerNib:[UINib nibWithNibName:@"Cell" bundle:nil] forCellReuseIdentifier:@"cell"];
-    [self.view addSubview:_tableView];
+  //  [self.view addSubview:_tableView];
 
 
+    self.cityView = [[TNCityView alloc]initWithFrame:CGRectMake(0, 100, [UIScreen mainScreen].bounds.size.width, 200)];
+    self.cityView.delegate = self;
+    [self.view addSubview:self.cityView];
 }
 
+-(void)TNCityView:(TNCityView *)cityView didSelectPro:(NSString *)pro selectCity:(NSString *)city{
 
+    NSLog(@"%@===== %@ ",pro,city);
+}
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
 
     return 20;
@@ -60,7 +67,7 @@
 }
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
 
-    NSLog(@"选中%d",indexPath.row);
+  //  NSLog(@"选中%d",indexPath.row);
     [tableView deselectRowAtIndexPath:indexPath animated:NO];
 
 
@@ -68,7 +75,7 @@
 -(void)tableView:(UITableView *)tableView didDeselectRowAtIndexPath:(NSIndexPath *)indexPath{
 
 
-    NSLog(@"反选%d",indexPath.row);
+    //NSLog(@"反选%d",indexPath.row);
 
 }
 //-(void)tableView:(UITableView *)tableView didHighlightRowAtIndexPath:(NSIndexPath *)indexPath{
