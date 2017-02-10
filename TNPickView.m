@@ -60,7 +60,7 @@
     [self.pick selectRow:0 inComponent:0 animated:YES];
     self.pick.showsSelectionIndicator  =YES;
     [self addSubview:self.pick];
-    UIImageView *checkBox = [[UIImageView alloc]initWithFrame:CGRectMake(20+24, backView.frame.size.height/2.0-18, backView.frame.size.width-40-48, 36)];
+    UIImageView *checkBox = [[UIImageView alloc]initWithFrame:CGRectMake(19, backView.frame.size.height/2.0-18, backView.frame.size.width-38, 36)];
     [checkBox setImage:[UIImage imageNamed:@"sy_xuanzekuang.png"]];
     [self addSubview:checkBox];
     

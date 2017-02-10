@@ -24,7 +24,7 @@
     
     _window.backgroundColor =  [UIColor whiteColor];
     
-    _window.rootViewController = [[GetPhoneInfo alloc]init];
+    _window.rootViewController = [[TNCustomerView alloc]init];
     
     [_window makeKeyAndVisible];
     
